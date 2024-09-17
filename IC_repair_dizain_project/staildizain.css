@@ -1,0 +1,1139 @@
+@import url(./font/font.css);
+
+body {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    line-height: 1.688em;
+    margin: 0;
+    font-size: 11px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    background: rgba(19, 19, 19, 1);
+}
+
+.footer {
+    background: rgba(19, 19, 19, 1);
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    background: rgba(19, 19, 19, 1);
+    margin-left: 6.4%;
+    margin-right: 6.26%;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.header__item_title {
+    color: rgba(227, 184, 115, 1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__item_contacts {
+    color: rgba(227, 184, 115, 1);
+}
+
+.header__item_button {
+    width: 161px;
+    height: 37px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.2);
+    background: rgba(227, 184, 115, 1);
+    border: 0;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    /*display: none;*/
+}
+
+/*.header__item_navigation {
+    display: none;
+}*/
+
+.header__item_gold {
+    color: rgba(227, 184, 115, 1);
+}
+
+.header__item_whit {
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__first {
+    background-image: url(./photo.png/homefon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 707px;
+}
+
+.main__first_toner {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.main__first_tekst {
+    padding-top: 184px;
+    padding-left: 130px;
+}
+
+.main__first_ptext {
+    font-family: Yeseva One;
+    font-size: 40px;
+    line-height: 53.13px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 420px;
+}
+
+.main__first_sptekst {
+    color: rgba(227, 184, 115, 1);
+}
+
+.main__first_pptext {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.01px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 504px;
+}
+
+.main__first_btn_yellow {
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.3);
+    background: rgba(227, 184, 115, 1);
+    border: 0;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__first_twobutton {
+    display: flex;
+    gap: 20px;
+}
+
+.main__first_btn_transpo {
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-style: italic;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0);
+}
+
+.main__black {
+    height: 1074px;
+    background: rgba(19, 19, 19, 1);
+}
+
+.main__black_hgold {
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.42px;
+    letter-spacing: -0.07em;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    margin-top: 176px;
+}
+
+.main__black_group {
+    display: flex;
+}
+
+.main__black_tekst {
+    width: 442px;
+    font-size: 14px;
+    line-height: 26.73px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__black_korobka_h {
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.95px;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+
+}
+
+.main__black_korobka_p {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 21.28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__korobka {
+    display: grid;
+}
+
+.main__black_korobka {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+
+.main__black_fkorobka {
+    display: flex;
+    gap: 134px;
+    width: 442px;
+}
+
+.main__black_fgroup {
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.main__upper_gol {
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.4px;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+}
+
+.main__upper_gre {
+    font-family: Yeseva One;
+    font-size: 14px;
+    line-height: 19.4px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main__black_tkorobka {
+    margin-top: 176px;
+    margin-left: 71px;
+}
+
+.main__black_upper {
+    display: flex;
+    gap: 60px;
+}
+
+.main__black_cam {
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+}
+
+.main__wideo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main__goldline {
+    display: flex;
+    justify-content: center;
+}
+
+.main__wideo_payza {
+    position: absolute;
+    top: 142px;
+}
+
+.main__glava {
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__glava_st {
+    width: 681px;
+    font-size: 18px;
+    line-height: 36.83px;
+    text-align: center;
+}
+
+.main__form {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-top: 92px;
+}
+
+.main__form_zapoln {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__zapoln_gr {
+    font-size: 13px;
+    line-height: 21.28px;
+    text-align: left;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.main__zapoln_nr {
+    font-size: 14px;
+    line-height: 22.92px;
+    text-align: left;
+    color: rgba(54, 54, 54, 1);
+}
+
+.main__zapoln_ch {
+    border: 1px solid rgba(54, 54, 54, 0.3)
+}
+
+.main__fbutton {
+    width: 200px;
+    height: 51px;
+    border-radius: 2px;
+    background: rgba(227, 184, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26.6px;
+    text-align: center;
+}
+
+.main__agree {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.main__label {
+    cursor: pointer;
+}
+
+.main__checkbox {
+    display: none
+}
+
+.main__fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.main__fake::before {
+    content: "\2714";
+    opacity: 0;
+    transition: .2s;
+}
+
+.main__checkbox:checked+.main__fake::before {
+    opacity: 1;
+}
+
+.main__agree_text {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 22.92px;
+    text-align: left;
+    color: rgba(24, 24, 24, 1);
+
+}
+
+
+.main__types {
+    display: flex;
+    justify-content: center;
+    margin-top: 148px;
+}
+
+.main__cena {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+.main__blok_tekst {
+    width: 330px;
+    height: 286px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+    position: relative;
+    top: -127px;
+}
+
+.main__blokte_oglav {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 24.95px;
+    text-align: left;
+    color: rgba(54, 54, 54, 1);
+    padding-left: 26px;
+}
+
+.main__blokte_spli {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 26.6px;
+    text-align: left;
+    color: rgba(149, 149, 149, 1);
+}
+
+.main__blokte_button {
+    width: 228px;
+    height: 54px;
+    background: rgba(227, 184, 115, 1);
+    box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.3);
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 24.95px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+}
+
+.main__cena_blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__bilbacle_te {
+    margin-left: 249px;
+}
+
+.main__bilbacsp__num {
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px 0px #E3B87326;
+    background: #E3B873;
+    width: 41.76px;
+    height: 41.76px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 24.95px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.main__bilbacle_sp {
+    display: flex;
+    align-items: center;
+}
+
+.main__bilbacle_bac {
+    position: relative;
+}
+
+.main__bilbac_le {
+    background-image: url(photo.png/bilbac.png);
+    width: 703px;
+    height: 645px;
+    display: flex;
+    gap: 103px;
+    flex-direction: column;
+}
+
+.main__bilbacsp {
+    max-width: 316px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.1px;
+    text-align: left;
+}
+
+.main__bilbacle_te:first-child {
+    margin-top: 117px;
+}
+
+.main__bilbac_ri {
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    box-shadow: 0px 30px 30px 0px #0000000D;
+    margin-top: 140px;
+}
+
+.main__bilbac {
+    display: flex;
+}
+
+.main__bilbacogl_sp {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 25.78px;
+    margin-left: 104px;
+    color: #FFFFFF;
+    width: 297px;
+    display: flex;
+
+}
+
+.main__bilbaccon_nor {
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.92px;
+    text-align: left;
+}
+
+.main__bilbaccon_we {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 21.28px;
+    text-align: left;
+    color: #FFFFFF80;
+}
+
+.main__bilbacri_con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 49px;
+    margin-top: 48px;
+}
+
+
+
+.main__bilbacri_ogl {
+    margin-top: 28px;
+}
+
+.main__agree_text_wh {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 22.92px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__bilbaccon_bor {
+    width: 408px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.main__bilbac_button {
+    display: flex;
+    justify-content: right;
+    margin-top: 39px;
+    margin-right: 46px;
+}
+
+.main__bilbac_agree {
+    margin-top: 16px;
+    margin-left: 49px;
+}
+
+.main__colage {
+    margin-top: 130px;
+}
+
+.main__colage_bac {
+    background-image: url(photo.png/bacroom.png);
+    width: 100%;
+    height: 864px;
+    margin-top: 130px;
+}
+
+.main__colage_blac {
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    width: 100%;
+    height: 864px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__colage_spisok {
+    width: 299px;
+}
+
+.main__colagespisok_ogl {
+    font-family: Yeseva One;
+    font-size: 27px;
+    line-height: 37.42px;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    width: 370px;
+    margin-top: 138px;
+    margin-left: 7%;
+}
+
+.main__colagespisok_item {
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38.19px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+    margin-left: 7%;
+}
+
+.main__colagespisok_item:hover {
+    color: rgba(227, 184, 115, 1);
+    text-decoration: underline;
+}
+
+.main__colagespisok_ul {
+    list-style: none;
+}
+
+.main__colage_ph {
+    display: flex;
+    gap: 44px;
+    margin-right: 102px;
+}
+
+.main__colageph_img {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    gap: 44px;
+}
+
+.main__colageph_secimg {
+    display: flex;
+    flex-direction: column;
+    margin-top: -112px;
+    gap: 44px;
+}
+
+.main__client {
+    margin-left: 7%;
+    margin-top: 70px;
+}
+
+.main__client_peop {
+    display: flex;
+    gap: 54px;
+}
+
+.main__clientpeopmore_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__clientpeopmorename_sp {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 22.87px;
+    color: rgba(24, 24, 24, 1);
+    width: 178px;
+    margin-left: 23px;
+}
+
+.main__clientpeopmoretekst_p {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: rgba(149, 149, 149, 1);
+    width: 324px;
+}
+
+.main__clientpeopmore_go {
+    display: flex;
+    width: 293px;
+    height: 54px;
+    background: rgba(227, 184, 115, 1);
+    box-shadow: 5px 5px 20px 0px rgba(227, 184, 115, 0.5);
+    align-items: center;
+    margin-top: 63px;
+}
+
+.main__clientpeop_more {
+    width: 376px;
+    height: 455px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.04);
+
+}
+
+.main__client_our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__clientpeopmorego_cv {
+    font-family: Yeseva One;
+    font-size: 17px;
+    line-height: 23.56px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main__clientpeopmore_tekst {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__clientour_gl {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 27.72px;
+    text-align: center;
+    color: rgba(24, 24, 24, 1);
+}
+
+.main__clientour_sp {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 29.46px;
+    text-align: center;
+    color: rgba(54, 54, 54, 1);
+    width: 476px;
+}
+
+.main__clientpeopmore_go {
+    display: flex;
+    gap: 14px;
+}
+
+.main__clientpeopmorego_svg {
+    margin-left: 17px;
+}
+
+.main__bakframe {
+    background-image: url(photo.png/Frame.png);
+    background-size: 100%, 776px;
+    background-position: center top;
+    height: 400px;
+}
+
+.main__vizit {
+    width: 883px;
+    height: 445px;
+    background: rgba(19, 19, 19, 1);
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 288px;
+    position: relative;
+    top: -220px;
+}
+
+.main__vizitform_dubl {
+    display: flex;
+    gap: 58px;
+}
+
+.main__vizitall_ogl {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 27.72px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 35px;
+}
+
+.main__vizform_line {
+    width: 231px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__bilbaccon_form {
+    display: block;
+    width: 231px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.main__bilbaccon_botform {
+    width: 513px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+}
+
+.main__vizit_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__vizform_linebot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+.main__vizit_form {
+    margin-top: 46px;
+}
+
+.main__vizit_agree {
+    margin-top: 47px;
+}
+
+.main__vizit_but {
+    margin-top: 50px;
+}
+
+.main__neboskreb {
+    background-image: url(photo.png/neboskreb.png);
+    background-size: 100%, 953px;
+    background-position: center top;
+    height: 953px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -16px;
+}
+
+.main__neboskreb_ton {
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    height: 953px;
+}
+
+.main__neboskreb_adres {
+    margin-top: -169px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__neboskreb_adresp {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 27.72px;
+    text-align: center;
+    color: rgba(227, 184, 115, 1);
+    width: 444px;
+}
+
+.main__neboskreb_adressvg {
+    margin-top: 26px;
+}
+
+.main__rarta {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 43px;
+}
+
+.main__black_mobfoto {
+    display: none;
+}
+
+.main__wideo_s {
+    display: none;
+}
+
+.main__wideo_payzamob {
+    display: none;
+}
+
+.main__form_buttonmo {
+    display: none;
+}
+
+.main__formob {
+    display: none;
+}
+
+.main__mobniz {
+    display: none;
+    flex-direction: column;
+}
+
+@media(max-width:900px) {
+    .header__item_navigation {
+        display: none;
+    }
+
+    .header__item_button {
+        display: none;
+    }
+
+    .main__first_tekst {
+        padding-left: 18px;
+        padding-top: 85px;
+        width: 90%;
+    }
+
+    .main__black_mobfoto {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 80%;
+        align-items: center;
+    }
+
+    .main__black_mobfotogal {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+    }
+
+    .main__black_mobfotogalrl {
+        width: 36px;
+        height: 36px;
+        box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
+        border: 0.75px solid rgba(255, 255, 255, 1);
+        background: rgba(227, 184, 115, 1);
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 1);
+        border: 0;
+    }
+
+    .main__black_tkorobka {
+        display: none;
+    }
+
+    .main__black_fgroup {
+        margin-left: 5%;
+        align-items: center;
+    }
+
+    .main__black_strelki {
+        display: none;
+    }
+
+    .main__wideo_f {
+        display: none;
+    }
+
+    .main__wideo_s {
+        display: flex;
+    }
+
+    .main__wideo_payzamob {
+        position: absolute;
+        display: flex;
+        top: 30%;
+    }
+
+    .main__wideo_payza {
+        display: none;
+    }
+
+    .main__wideo {
+        background: rgba(19, 19, 19, 1);
+    }
+
+    .main__goldline {
+        background: rgba(19, 19, 19, 1);
+    }
+
+    .main__glava {
+        background: rgba(19, 19, 19, 1);
+        width: 100%;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 77px;
+    }
+
+    .main__glava_st {
+        font-family: Nunito Sans;
+        font-size: 11px;
+        line-height: 18.68px;
+        text-align: center;
+    }
+
+    .main__mobmlac {
+        background: rgba(19, 19, 19, 1);
+    }
+
+    .main__form {
+        flex-direction: column;
+    }
+
+    .main__zapoln_gr {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Nunito Sans;
+        font-size: 13px;
+        line-height: 21.28px;
+        text-align: left;
+    }
+
+    .main__zapoln_nr {
+        color: rgba(255, 255, 255, 1);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        line-height: 19.42px;
+        text-align: left;
+    }
+
+    .main__zapoln_ch {
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(54, 54, 54, 0.3)
+    }
+
+    .main__form_button {
+        display: none;
+    }
+
+    .main__form_buttonmo {
+        display: flex;
+    }
+
+    .main__fbutton {
+        width: 340px;
+        height: 51px;
+    }
+
+    .main__agree_text {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .main__cena {
+        flex-direction: column;
+    }
+
+    .main__bilbac {
+        display: none;
+    }
+
+    .main__colage {
+        display: none;
+    }
+
+    .main__client {
+        display: none;
+    }
+
+    .main__bakframe {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .main__formob {
+        display: flex;
+        flex-direction: column;
+        margin-top: -466px;
+        align-items: center;
+    }
+
+    .main__neboskreb {
+        display: none;
+    }
+
+    .main__mobniz {
+        display: flex;
+        background: rgba(19, 19, 19, 1);
+        justify-content: center;
+        margin-top: 226px;
+    }
+
+    .main__vizitform_dubl {
+        flex-direction: column;
+        gap: 63px;
+    }
+
+    .main__vizform_linebot {
+        margin-top: unset;
+        width: 100%;
+    }
+
+    .main__vizform_line {
+        width: 90%;
+    }
+
+    .main__vizit_form {
+        gap: 63px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+        width: 85%;
+    }
+
+    .main__bilbaccon_form {
+        width: 100%;
+    }
+
+    .main__bilbaccon_botform {
+        width: 90%;
+    }
+
+    .main__mobniz_form {
+        width: 100%;
+    }
+
+    .main__vizitall_ogl {
+        margin-top: 150px;
+    }
+
+    .main__colagespisok_ogl {
+        margin-left: unset;
+    }
+
+    .main__neboskreb_adres {
+        margin-top: 69px;
+    }
+
+    .main__rarta {
+        box-shadow: unset
+    }
+
+    .kartapng {
+        width: 80%;
+        height: auto;
+    }
+
+    .main__black_mobfotosec {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 120px;
+        width: 80%;
+        align-items: center;
+    }
+
+    .main__first_ptext{
+        width: 90%;
+    }
+
+    .main__first_pptext {
+        width: 100%;
+    }
+}
